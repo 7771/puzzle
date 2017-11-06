@@ -42,7 +42,7 @@ window.onload = function ()
 
 				
 
-                this.style.backgroundImage="pomeranianhusky.jpg')"; 
+                this.style.backgroundImage="pomeranianhusky.jpg"; 
 
 
 
