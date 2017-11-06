@@ -1,3 +1,5 @@
+"uses strict"
+
 var div;
 
 var areaY;
