@@ -12,14 +12,7 @@ window.onload = function ()
 
 	var puzzlearea = document.getElementById('puzzlearea');
 	
-	/*var context = document.getElementById("puzzlearea").getContext("2d");
-	_img = new Image();
-    	_img.src = "pomeranianhusky.jpg";
-	_img.addEventListener('load',onImage,false);
-	  */  	
 	
-	
-
 	div = puzzlearea.getElementsByTagName('div');
 
 
