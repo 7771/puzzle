@@ -5,10 +5,12 @@ var areaY;
 var areaX;
 
 function init()
-	{
+	{	
+		var context = document.getElementById("puzzle").getContext("2d");
 		_img = new Image();
-    		_img.addEventListener('load',onImage,false);
-	    	_img.src = "pomeranianhusky.jpg";
+    		_img.src = "pomeranianhusky.jpg";
+		_img.addEventListener('load',onImage,false);
+	    	
 	}
 
 
