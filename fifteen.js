@@ -4,14 +4,6 @@ var areaY;
 
 var areaX;
 
-function init()
-	{	
-		var context = document.getElementById("puzzle").getContext("2d");
-		_img = new Image();
-    		_img.src = "pomeranianhusky.jpg";
-		_img.addEventListener('load',onImage,false);
-	    	
-	}
 
 
 window.onload = function ()
@@ -19,6 +11,12 @@ window.onload = function ()
 {
 
 	var puzzlearea = document.getElementById('puzzlearea');
+	
+	var context = document.getElementById("puzzlearea").getContext("2d");
+	_img = new Image();
+    	_img.src = "pomeranianhusky.jpg";
+	_img.addEventListener('load',onImage,false);
+	    	
 	
 	
 
