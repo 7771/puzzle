@@ -41,11 +41,9 @@ window.onload = function ()
 
 			{
 
-				this.style.border = "3px solid black";
-
-				
-
-                this.style.backgroundImage="url('http://www.webdesignsolution.org/wp-content/uploads/2015/06/wordpress-hyderabad.jpg')"; 
+				this.style.border = "3px solid red";
+				this.style.color="green";
+               		
 
 
 
@@ -58,6 +56,7 @@ window.onload = function ()
 		{
 
 			this.style.border = "5px solid black";
+			this.style.color="black";
 
 			
 
@@ -97,7 +96,8 @@ window.onload = function ()
 
 	areaY = '300px';
 
-
+	this.style.backgroundImage="pomeranianhusky.jpg";
+	
 
 	var shufflebutton = document.getElementById('shufflebutton');
 
