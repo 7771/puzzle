@@ -1,4 +1,4 @@
-"uses strict"
+"use strict";
 
 var div;
 
@@ -8,13 +8,15 @@ var areaX;
 
 
 
+
 window.onload = function ()
 
 {
 
 	var puzzlearea = document.getElementById('puzzlearea');
+
 	
-	
+
 	div = puzzlearea.getElementsByTagName('div');
 
 
@@ -39,12 +41,11 @@ window.onload = function ()
 
 			{
 
-				this.style.border = "3px solid red";
-				this.style.color = "#006600";
+				this.style.border = "3px solid black";
 
 				
 
-                this.style.backgroundImage="pomeranianhusky.jpg"; 
+                this.style.backgroundImage="url('http://www.webdesignsolution.org/wp-content/uploads/2015/06/wordpress-hyderabad.jpg')"; 
 
 
 
@@ -57,7 +58,7 @@ window.onload = function ()
 		{
 
 			this.style.border = "5px solid black";
-			this.style.color= "black";
+
 			
 
 		};
