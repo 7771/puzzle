@@ -95,10 +95,16 @@ window.onload = function ()
 	areaX = '300px';
 
 	areaY = '300px';
-
-	this.style.backgroundImage="pomeranianhusky.jpg";
+	/*drawImage("pomeranianhusky.jpg",areasX,areaY);
+	var context = document.getElementById("puzzlearea").getContext("2d");
+	var img = new Image();
+	immg.src='pomeranianhusky.jpg';
+	img.addEventListener('load',drawTiles,false);
+	var brdSize = document.getElementById('puzzlearea').width;
+	var tileC = document.getElementById
 	
-
+	//this.style.backgroundImage="pomeranianhusky.jpg";*/
+	
 	var shufflebutton = document.getElementById('shufflebutton');
 
 	shufflebutton.onclick = function()
