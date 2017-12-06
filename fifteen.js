@@ -1,12 +1,15 @@
-"use strict";
-
 var div;
 
 var areaY;
 
 var areaX;
 
-
+function init()
+	{
+		_img = new Image();
+    		_img.addEventListener('load',onImage,false);
+	    	_img.src = "pomeranianhusky.jpg";
+	}
 
 
 window.onload = function ()
@@ -14,7 +17,7 @@ window.onload = function ()
 {
 
 	var puzzlearea = document.getElementById('puzzlearea');
-
+	
 	
 
 	div = puzzlearea.getElementsByTagName('div');
@@ -42,8 +45,11 @@ window.onload = function ()
 			{
 
 				this.style.border = "3px solid red";
-				this.style.color="green";
-               		
+				this.style.color = "#006600";
+
+				
+
+                this.style.backgroundImage="pomeranianhusky.jpg')"; 
 
 
 
@@ -56,8 +62,7 @@ window.onload = function ()
 		{
 
 			this.style.border = "5px solid black";
-			this.style.color="black";
-
+			this.style.color= "black";
 			
 
 		};
@@ -95,16 +100,9 @@ window.onload = function ()
 	areaX = '300px';
 
 	areaY = '300px';
-	/*drawImage("pomeranianhusky.jpg",areasX,areaY);
-	var context = document.getElementById("puzzlearea").getContext("2d");
-	var img = new Image();
-	immg.src='pomeranianhusky.jpg';
-	img.addEventListener('load',drawTiles,false);
-	var brdSize = document.getElementById('puzzlearea').width;
-	var tileC = document.getElementById
-	
-	//this.style.backgroundImage="pomeranianhusky.jpg";*/
-	
+
+
+
 	var shufflebutton = document.getElementById('shufflebutton');
 
 	shufflebutton.onclick = function()
